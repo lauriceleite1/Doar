@@ -1,0 +1,524 @@
+ /*Menu*/
+
+ header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .left p {
+    font-size: 2rem;
+    font-weight: 800;
+    font-family: 'Poppins';
+    font-style: normal;
+    line-height: 1.5;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0.25rem 0.75rem;
+    margin: 0;
+    display: flex;
+    flex-basis: auto;
+    box-sizing: border-box;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1;
+    color: #8C8C8C;
+    font-family: 'Poppins';
+    font-style: normal;
+    border: 1px solid (94,94,94,0.15);
+    border-radius: 0.375rem;
+    position: relative;}
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav li:last-child {
+    margin-right: 0;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #8C8C8C;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    color: #8C8C8C;
+    flex-direction: row;
+  }
+  
+nav a:hover{
+    color: #B77B4F;
+    font-weight: bold;
+}
+
+  .right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .right button {
+    margin-right: 10px;
+    box-sizing: border-box;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 90px;
+    height: 40px;
+    top: 42px;
+    background: #FF6E15;
+    border: 3px solid #FF6E15;
+    border-radius: 4px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    cursor:pointer;
+  }
+  
+  .right img {
+    z-index: -1;
+    position: absolute; 
+    position: absolute;
+    width: auto;
+    height: auto;
+    right: 0px;
+    top: 0px; 
+  }
+  
+    /*Corpo do Site*/
+
+
+
+    .noticias {
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+
+    .image {
+        float: left;
+        margin-right: 10px;
+        position: absolute;
+        width: 727px;
+        height: 349px;
+        left: 48px;
+        top: 130px;
+        background: url(.jpg), #D09595;
+        border-radius: 4px;
+    }
+
+    .button {
+        position: absolute;
+        width: 84px;
+        height: 22px;
+        left: 56px;
+        top: 550px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #696969;
+        border: none;
+        background: rgba(105, 105, 105, 0.25);
+        border-radius: 2px;
+        width: 100px;
+        height: 23px;
+        left: 48px;
+        top: 491px;
+        cursor: pointer;
+        transition: 0,3s ease;
+      }
+
+    button:hover{
+        transform: scale(1.1);
+      }
+
+    .caption {
+        position: absolute;
+        width: 175px;
+        height: 22px;
+        left: 600px;
+        top: 491px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #696969;
+
+    }
+
+    .titulo{
+        position: absolute;
+        width: 727px;
+        height: 42px;
+        left: 48px;
+        top: 539px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 42px;
+        color: #000;
+    }
+
+    .texto{
+        position: absolute;
+        width: 727px;
+        height: 64px;
+        left: 48px;
+        top: 585px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 32px;
+    }
+
+    /*Seção compartilhar*/
+
+    .compartilhar {
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+
+    .compartilhar-texto{
+        position: absolute;
+        width: 99px;
+        height: 19px;
+        left: 48px;
+        top: 625px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #0E0E0E;
+    }
+
+    .botaoface{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px;
+gap: 10px;
+position: absolute;
+width: 135px;
+height: 32px;
+left: 163px;
+top: 617px;
+background: #D7D7D7;
+border-radius: 28px;
+border: none;
+cursor: pointer;
+    }
+
+    .botaowhats{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px;
+gap: 10px;
+position: absolute;
+width: 135px;
+height: 32px;
+left: 314px;
+top: 617px;
+background: #D7D7D7;
+border-radius: 28px;
+border: none;
+cursor: pointer;
+    }
+
+    .botaoinsta{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px;
+gap: 10px;
+position: absolute;
+width: 135px;
+height: 32px;
+left: 465px;
+top: 617px;
+background: #D7D7D7;
+border-radius: 28px;
+border: none;
+cursor: pointer;
+    }
+      
+      /*quadrado arrecadados*/
+
+.arrecadados{
+position: absolute;
+width: 418px;
+height: 389px;
+left: 826px;
+top: 130px;
+background: #F1F1F1;
+}
+
+.itens{
+position: absolute;
+width: 200px;
+height: 20x;
+left: -810px;
+top: -200px;
+}
+
+.palavra-arrecadados{
+position: absolute;
+width: 213px;
+height: 36x;
+left: 831px;
+top: 205px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 48px;
+color: #000000;
+}
+
+.dinheiro{
+position: absolute;
+width: 32px;
+height: 32px;
+left: 831px;
+top: 283px;
+}
+
+.valor{
+position: absolute;
+width: 76px;
+height: 25px;
+left: 878px;
+top: 273px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+color: #000000;
+}
+
+.palavra1{
+position: absolute;
+width: 49px;
+height: 18px;
+left: 878px;
+top: 302px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 12px;
+line-height: 18px;
+color: #000000;
+}
+
+.roupas{
+position: absolute;
+width: 32px;
+height: 32px;
+left: 830px;
+top: 362px;
+}
+
+.valor2{
+position: absolute;
+width: 76px;
+height: 25px;
+left: 878px;
+top: 352px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+color: #000000;
+}
+
+.palavra2{
+    position: absolute;
+    width: 122px;
+    height: 18px;
+    left: 878px;
+    top: 381px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    color: #000000;    
+}
+
+.construcao{
+position: absolute;
+width: 32px;
+height: 32px;
+left: 830px;
+top: 439px;
+}
+
+.valor3{
+position: absolute;
+width: 76px;
+height: 25px;
+left: 878px;
+top: 431px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+color: #000000;
+}
+
+.palavra3{
+position: absolute;
+width: 76px;
+height: 18px;
+left: 878px;
+top: 460px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 12px;
+line-height: 18px;
+color: #000000;
+}
+
+.comida{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 1066px;
+    top: 279px;      
+}
+
+.valor4{
+position: absolute;
+width: 76px;
+height: 25px;
+left: 1114px;
+top: 273px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+color: #000000;
+}
+
+.palavra4{
+position: absolute;
+width: 49px;
+height: 18px;
+left: 1114px;
+top: 302px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 12px;
+line-height: 18px;
+color: #000000;
+}
+
+.medicamento{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 1066px;
+    top: 362px;    
+}
+
+.valor5{
+position: absolute;
+width: 76px;
+height: 25px;
+left: 1114px;
+top: 352px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+color: #000000;
+}
+
+.palavra5{
+position: absolute;
+width: 90px;
+height: 18px;
+left: 1114px;
+top: 381px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 12px;
+line-height: 18px;
+color: #000000;
+}
+
+.doar-button{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px;
+gap: 10px;
+position: absolute;
+width: 274px;
+height: 48px;
+left: 830px;
+top: 510px;
+background: #FF6E15;
+border-radius: 4px;
+border: none;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+color: #FFFFFF;
+flex: none;
+order: 0;
+flex-grow: 0;
+cursor: pointer;
+transition: 0,3s ease;
+}
+
+.doar-button:hover{
+transform: scale(1.1);
+}
+
+.botao-favoritar{
+position: absolute;
+width: 32px;
+height: 32px;
+left: 1147px;
+top: 520px;
+background-color: #F1F1F1;
+border: none;
+cursor: pointer;
+transition: 0,3s ease;
+}
+
+.botao-favoritar:hover{
+transform: scale(1.1);
+}
+     
